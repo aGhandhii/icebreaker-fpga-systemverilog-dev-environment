@@ -14,6 +14,7 @@ Name | Description
 [Project IceStorm](https://github.com/YosysHQ/icestorm)     | Yosys/NextPnR compatibility layer for Lattice Ice40 FPGA architectures
 [Icarus Verilog](https://github.com/steveicarus/iverilog)   | Verilog IEEE 1364-2005 Compiler and Simulator
 [Verilator](https://github.com/verilator/verilator)         | SystemVerilog Simulator
+[Verible](https://github.com/chipsalliance/verible)         | Formatting and Linting Tools for SystemVerilog
 [slang](https://github.com/MikePopoloski/slang)             | SystemVerilog IEEE 1800-2023 Pre-Processor, acts as a plugin for Yosys
 [sv2v](https://github.com/zachjs/sv2v)                      | SystemVerilog IEEE 1800-2017 to Verilog IEEE 1364-2005 conversion tool
 [Surfer](https://gitlab.com/surfer-project/surfer)          | Waveform Viewer
