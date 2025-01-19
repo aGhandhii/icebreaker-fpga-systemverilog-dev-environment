@@ -6,7 +6,7 @@
 
 # Update verible-filelist
 echo -n "Updating verible-filelist..."
-exec find . -name '*.sv' -o -name '*.svh' -o -name '*.v' | sort > verible.filelist
+exec find . -name '*.sv' -o -name '*.svh' | sort > verible.filelist
 git add verible.filelist
 echo -n -e "Success\n"
 
