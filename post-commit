@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Author: Alex Ghandhi
 # Automates tag generation after commit
