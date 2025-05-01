@@ -5,7 +5,7 @@
 
 ## Open-Source Software Stack:
 
-*NOTE: LAST UPDATED JANUARY 2025*
+*NOTE: LAST UPDATED APRIL 2025*
 
 Name | Description
 ---  | ---
@@ -19,7 +19,6 @@ Name | Description
 [sv2v](https://github.com/zachjs/sv2v)                      | SystemVerilog IEEE 1800-2017 to Verilog IEEE 1364-2005 conversion tool
 [Surfer](https://gitlab.com/surfer-project/surfer)          | Waveform Viewer
 [CTags](https://ctags.io/)                                  | Source Code Indexer
-[fd](https://github.com/sharkdp/fd)                         | WINDOWS ONLY - replacement for unix 'find' tool
 
 ** Many of these tools are packaged in the YosysHQ [OSS CAD Suite](https://github.com/YosysHQ/oss-cad-suite-build) **
 
@@ -27,8 +26,9 @@ Name | Description
 
 Name | Description
 ---  | ---
-src/            | Contains RTL for synthesis
-test/           | Stores RTL testbench files
+src/            | Contains RTL
+inc/            | Contains Headers and Packages
+test/           | Contains Testbenches
 Makefile        | Scripting to automate Simulation, Synthesis, Place and Route, and Programming
 .rules.verible* | Instructions for automated linting, taken from [this template](https://github.com/aGhandhii/systemverilog-auto-lint-format)
 icebreaker.pcf  | Pin definitions for the IceBreaker 1.0e
@@ -40,7 +40,7 @@ icebreaker.pcf  | Pin definitions for the IceBreaker 1.0e
 Hook | Description
 ---  | ---
 pre-commit  | Runs verilog linter checks and reformatting tools
-post-commit | Regenerates tag file
+post-commit | Regenerates tags
 
 ## Other
 
